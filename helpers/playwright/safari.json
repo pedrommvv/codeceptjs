@@ -1,0 +1,11 @@
+{
+  "helpers": {
+    "Playwright": {
+      "show": false,
+      "restart": false,
+      "waitForNavigation": "networkidle0",
+      "waitForAction": 500,
+      "browser": "webkit"
+    }
+  }
+}

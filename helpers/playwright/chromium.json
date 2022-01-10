@@ -1,0 +1,16 @@
+{
+  "helpers": {
+    "Playwright": {
+      "show": false,
+      "restart": false,
+      "waitForNavigation": "networkidle0",
+      "waitForAction": 500,
+      "browser": "chromium",
+      "mocha": {
+        "reporterOptions": {
+            "reportDir": "reports"
+        }
+      }
+    }
+  }
+}

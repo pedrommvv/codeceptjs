@@ -1,0 +1,8 @@
+{
+  "helpers": {
+    "WebDriver": {
+      "url": "http://localhost:4200",
+      "browser": "MicrosoftEdge"
+    }
+  }
+}
