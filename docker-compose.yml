@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  acceptance:
+    image: codeceptjs/codeceptjs:3.0.6
+    volumes:
+      - .:/tests
+    #env_file:
+    #  - .env
+    depends_on:
+      - chrome
+    command: bash -c "npm ci && npm run e2e:chrome:smoke"
+  chrome:
+    container_name: chrome
+    image: selenium/standalone-chrome
+    ports:
+      - '4444'
+      - '5900'
