@@ -2,13 +2,14 @@
   "helpers": {
     "Playwright": {
       "show": false,
+      "retryScenario": 2,
       "restart": false,
       "waitForNavigation": "networkidle0",
       "waitForAction": 500,
       "browser": "chromium",
       "mocha": {
         "reporterOptions": {
-            "reportDir": "reports"
+          "reportDir": "reports"
         }
       }
     }

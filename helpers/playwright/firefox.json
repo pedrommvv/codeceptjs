@@ -2,6 +2,7 @@
   "helpers": {
     "Playwright": {
       "show": false,
+      "retryScenario": 2,
       "restart": false,
       "waitForNavigation": "networkidle0",
       "waitForAction": 500,
