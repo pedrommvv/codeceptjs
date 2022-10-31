@@ -18,6 +18,12 @@ exports.config = {
       require: "codeceptjs-assert",
     },
   },
+  include: {
+    homePage: "./PO/home",
+    orderPage: "./PO/order",
+    cartPage: "./PO/cart",
+    productPage: "./PO/product",
+  },
   bootstrap: null,
   mocha: {},
   require: ["ts-node/register"],
