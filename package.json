@@ -11,8 +11,8 @@
     "e2e:firefox:smoke": "npx codeceptjs run --grep @smoke -o $(cat ./helpers/playwright/firefox.json | tr -d ' \t\n\r')",
     "e2e:safari": "npx codeceptjs run -o $(cat ./helpers/playwright/safari.json | tr -d ' \t\n\r')",
     "e2e:safari:smoke": "npx codeceptjs run --grep @smoke -o $(cat ./helpers/playwright/safari.json | tr -d ' \t\n\r')",
-    "e2e:server": "npx codecept-ui",
-    "e2e:app": "npx codecept-ui --app"
+    "e2e:runner:web": "npx codecept-ui --config ./codecept.conf.ts",
+    "e2e:runner:app": "npx codecept-ui --config ./codecept.conf.ts"
   },
   "private": true,
   "dependencies": {
