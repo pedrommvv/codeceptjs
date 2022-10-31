@@ -1,4 +1,6 @@
 ## About
+Default template for codeceptjs
+For usage with test websites - check out the branches available
 
 ## Setup
 
